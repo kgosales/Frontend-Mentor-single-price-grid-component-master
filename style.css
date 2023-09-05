@@ -115,12 +115,15 @@ button {
     color: var(--LightGray);
 }
 
-.attribution {
+footer{
     width: 100%;
-    font-size: 11px;
-    text-align: center;
     position: fixed;
     bottom: 0;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
 }
 
 .attribution a {
