@@ -139,6 +139,15 @@ button {
         padding: 20px;
     }
 
+    .topo h1{
+        font-size: 20px;
+    }
+
+    .topo h2{
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
     .topo p{
         padding: 0;
     }
@@ -148,8 +157,16 @@ button {
         border-radius: 0 0 0 0;
     }
 
+    .custo h2{
+        font-size: 20px;
+    }
+
     .porque {
         width: 100%;
         border-radius: 0 0 8px 8px;
+    }
+
+    .porque h2{
+        font-size: 20px;
     }
 }
