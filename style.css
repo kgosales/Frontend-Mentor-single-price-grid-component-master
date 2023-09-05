@@ -27,6 +27,8 @@ body {
 main {
     width: 50%;
     height: 60%;
+    max-width: 700px;
+    max-height: 500px;
     border-radius: 15px;
     background-color: white;
     display: flex;
@@ -40,8 +42,7 @@ p {
 }
 
 .box {
-    height: 50%;
-    padding: 35px;
+    padding: 40px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -49,55 +50,75 @@ p {
 
 .topo {
     width: 100%;
+    height: 45%;
 }
 
 .topo h1 {
     color: var(--Cyan);
+    margin-bottom: 20px;
 }
 
 .topo h2 {
     color: var(--BrightYellow);
+    margin-bottom: 10px;
 }
 
 .topo p {
     color: var(--GrayishBlue);
+    margin-bottom: 10px;
 }
 
 .custo {
     width: 50%;
+    height: 55%;
     color: white;
     border-radius: 0 0 0 15px;
     background-color: var(--Cyan);
 }
 
+.custo h2 {
+    margin-bottom: 20px;
+}
+
 .custo p.valor {
     color: var(--LightGray);
+    display: flex;
+    align-items: center;
 }
 
 .custo span {
     font-size: 38px;
     font-weight: 700;
     color: white;
+    margin-right: 10px;
 }
 
 button {
     width: 100%;
+    height: 44px;
     padding: 10px;
     border: none;
     border-radius: 5px;
     color: white;
     background-color: var(--BrightYellow);
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 16px;
+    margin-top: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
 .porque {
     width: 50%;
+    height: 55%;
     color: white;
     border-radius: 0 0 15px 0;
-    background-color: var(--GrayishBlue);
+    background-color: #4abebd;
 }
 
 .porque p {
-    padding-right: 80px;
+    padding-right: 60px;
     color: var(--LightGray);
 }
 
